@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAF9;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 164px;
+    padding: 16px 16px 20px 16px;
+    border-radius: 10px;
+    width: 368px;
+    box-shadow: 0px 30px 100px 0px rgb(159, 160, 159);
+    background-color: #FFFFFF;
+
+}
+
+img {
+    height: 152px;
+}
+
+.bot {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.boton {
+    border-radius: 10px;
+    background: #E6D6FC;
+    padding: 6px 16px 6px 16px;
+    max-width: max-content;
+    text-decoration: none;
+    margin-top: 16px;
+    font-size: 10px;
+    color: #883AE1;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.titulo-card {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.parrafo-card {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6C727F;
+    margin-top: 6px;
+}
+
+.piedecard {
+    margin-top: 20px;
+    border-top: 2px solid #E5EAF0;
+    padding-top: 20px;
+    width: 368px;
+}
+
+
+.pie {
+    padding: 0px 16px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 10px;
+    color: #6C727F;
+}
